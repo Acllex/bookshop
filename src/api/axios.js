@@ -1,12 +1,11 @@
 import axios from 'axios';
 // import store from 'store';
 let instance = axios.create({
-  baseURL: '',
+  baseURL: 'http://39.105.220.73:80/shopserver/public/index.php',
 })
 
 //请求拦截
 instance.interceptors.request.use((config)=>{
-  window.console.log('请求开始');
   let token = sessionStorage.getItem('token');
   // Do something before request is sent
   config.headers.token = token;
