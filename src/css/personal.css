@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    background: #F7F7F7;
+}
+.personal-top{
+    width: 100%;
+    float: left;
+    position: relative;
+    height: 2.6rem;
+}
+.personal-img{
+    width: 100%;
+    float: left;
+    height: 2.6rem;
+}
+.personal-top-con{
+    width: 94%;
+    position: absolute;
+    height: 2.6rem;
+    top: 0;
+    left: 0;
+    padding: 0 3%;
+}
+.personal-top-con img{
+    width: 1.4rem;
+    height: 1.4rem;
+    float: left;
+    overflow: hidden;
+    border:0.02rem solid #D7D1D1;
+    margin-top: 0.6rem;
+    border-radius: 50%;
+}
+.personal-top-img1 img{
+    width: 1.4rem;
+    height: 1.4rem;
+    float: left;
+}
+.personal-top-box2{
+    display: block;
+    margin-left: 1.6rem;
+    height: 2rem;
+    margin-top: 0.6rem;
+}
+.personal-top-text1{
+    width: 75%;
+    float: left;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #fff;
+    margin-top: 0.5rem;
+}
+.personal-top-write{
+    width: 1.1rem;
+    float: right;
+    height: 0.5rem;
+    font-size: 0.28rem;
+    color: #fff;
+    background: url(../images/personal/write-pen.png) no-repeat left center;
+    background-size: 35%;
+    text-align: right;
+    line-height: 0.5rem;
+    margin-top: 0.5rem;
+}
+/* 横的五个菜单项 */
+.personal-middle{
+    width: 100%;
+    float: left;
+    background: #fff;
+    padding: 0.3rem 0px;
+    display: flex;
+    justify-content: left;
+}
+.personal-middle1{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.personal-middle1-text1{
+    width: 100%;
+    display: inline-block;
+    font-size: 0.28rem;
+    color: #797778;
+}
+.personal-middle1-text2{
+    width: 100%;
+    display: inline-block;
+    font-size: 0.28rem;
+    color: #333;
+    margin-top: 0.06rem;
+}
+.personal-middle1-img1{
+    width: 0.46rem;
+    height: 0.46rem;
+    display: inline-block;
+}
+.personal-middle1-img1 img{
+    width: 0.46rem;
+    height: 0.46rem;
+    float: left;
+}
+.personal-box4{
+    width: 94%;
+    float: left;
+    padding: 0 3%;
+    background: #fff;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    font-size: 0.28rem;
+    color: #323232;
+    margin-bottom: 0.1rem;
+}
+.personal-gn{
+    width: 94%;
+    float: left;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    background-size: 5%;
+    padding: 0 3%;
+    font-size: 0.28rem;
+    color: #797778;
+    border-bottom: 0.02rem solid #E6E6E6;
+}
+.personal-gn-span{
+    width: 0.46rem;
+    height: 0.46rem;
+    float: left;
+    margin-top: 0.22rem;
+    margin-right: 0.2rem;
+}
+.personal-gn-span img{
+    width: 0.46rem;
+    height: 0.46rem;
+    float: left;
+}
+.personal-exit{
+    width: 90%;
+    line-height: 0.8rem;
+    font-size: 0.28rem;
+    color: #797778;
+    text-align: center;
+    float: left;
+    background: #fff;
+    margin-top: 0.2rem;
+    margin-left: 5%;
+    border:0.02rem solid #E6E6E6;
+    border-radius: 0.1rem;
+}
+/*底部*/
+.foot{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    height: 1rem;
+    background: #FFF;
+    border-top: .02rem solid #DCDCDC;
+}
+.foot a{
+    width: 25%;
+    float: left;
+    height: 1rem;
+    text-align: center;
+    color: #232326;
+}
+.foot a span:first-child{
+    width: .42rem;
+    height: .42rem;
+    display: inline-block;
+    margin-top: .1rem;
+}
+.foot a span:first-child img{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.foot a span:last-child{
+    width: 100%;
+    float: left;
+    font-size: .26rem;
+}
+.foot-color{
+    color: #FF9201;
+}

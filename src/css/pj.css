@@ -1,0 +1,198 @@
+*{
+   margin:0;
+   padding:0;
+   list-style:none;
+}
+/*头部*/
+.head{
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: .88rem;
+    line-height: .88rem;
+    color: #333333;
+    background: #FFFFFF;
+    text-align: center;
+    border-bottom: .02rem solid #F3F3F3;
+}
+.head-left{
+    background: url(../images/head-foot/arrow-left.png) no-repeat 10px center;
+    background-size: 20%;
+    width: 30%;
+    height: .88rem;
+    line-height: .88rem;
+    font-size: .28rem;
+    float: left;
+}
+.head-title{
+    width: 40%;
+    height: .88rem;
+    line-height: .88rem;
+    text-align: center;
+    font-size: .32rem;
+    color: #333333;
+    float: left;
+}
+.head-right{
+    width: 30%;
+    height: .88rem;
+    line-height: .88rem;
+    font-size: .28rem;
+    float: left;
+}
+.jd-qrdd-bigbox{
+    width: 100%;
+    margin-top: 0.9rem;
+    margin-bottom: 0.8rem;
+}
+.tb-pj-a1{
+    width: 94%;
+    float: left;
+    background-color: #FFFFFF;
+    padding: 0.2rem 3%;
+    border-bottom: 1px solid #E7E7E7;
+}
+.tbpj-a1-i1{
+    width: 1.2rem;
+    height: 1.2rem;
+    float: left;
+}
+.tbpj-a1-i1 img{
+    width: 1.2rem;
+    height: 1.2rem;
+}
+.tbpj-a1-t1{
+    display: block;
+    margin-left: 1.4rem;
+    font-size: 0.28rem;
+    line-height: 0.44rem;
+    height: 0.88rem;
+    color: #666666;
+    margin-top: 0.2rem;
+    overflow: hidden;
+}
+.tb-pj-a2{
+    width: 94%;
+    float: left;
+    padding: 0.2rem 3%;
+    background-color: #FFFFFF;
+    border-bottom: 0.02rem solid #E7E7E7;
+}
+.tbpj-a2-input{
+    width: 100%;
+    float: left;
+    height: 2rem;
+    border:none;
+    outline: none;
+    font-size: 0.28rem;
+    line-height: 0.44rem;
+}
+.tbpj-a1-i2{
+    width: 6%;
+    height: 0.4rem;
+    float: left;
+    background: url(../images/personal/check1.png)no-repeat center center;
+    background-size: 80%;
+}
+.tbpj-a1-i2.check{
+    background: url(../images/personal/check2.png)no-repeat center center;
+    background-size: 80%;
+}
+.tbpj-a1-t2{
+    font-size: 0.32rem;
+    margin-left: 5%;
+    float: left;
+}
+.tbpj-a1-t3{
+    font-size: 0.28rem;
+    margin-top: 0.04rem;
+    color: #AAABB3;
+    float: right;
+}
+.tbpj-a1-t4{
+    float: left;
+    font-size: 0.32rem;
+    margin-top: 0.06rem;
+    color: #666666;
+}
+.tbpj-a1-b1{
+    width: 70%;
+    margin-left: 5%;
+    float: left;
+}
+.tb-pj-c1{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #FF4852;
+    padding: 0.2rem 0;
+    margin-top: 0.4rem;
+    font-size: 0.32rem;
+}
+.serve-type-box1{
+    width: 94%;
+    float: left;
+    padding: 0.24rem 3%;
+    margin-top: 0.2rem;
+    background: #fff;
+    height: 2.4rem;
+    text-align: center;
+}
+.serve-type-text2{
+    width: 100%;
+    float: left;
+    text-align: left;
+    font-size: 0.3rem;
+}
+.serve-type-img2{
+    width: 1.6rem;
+    height: 1.6rem;
+    float: left;
+    border:0.02rem dashed #B0B0B0;
+    margin-top: 0.2rem;
+    position: relative;
+}
+.serve-type-img3{
+    width: 0.6rem;
+    height: 0.6rem;
+    display: inline-block;
+    background: url(../images/personal/camera.png) no-repeat center center;
+    background-size: 100%;
+    margin-top: 0.1rem;
+}
+.serve-type-text3{
+    width: 90%;
+    display: inline-block;
+    font-size: 0.24rem;
+    color: #ABABAB;
+    padding: 0 5%;
+}
+#star1 img{
+    width: 0.4rem;
+    height: 0.4rem;
+    margin-top: 0.04rem;
+}
+.serve-type-btn1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0; 
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+

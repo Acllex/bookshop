@@ -1,0 +1,36 @@
+.fund-bogbox1{
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 0.01rem solid #EDEDED;
+    margin-top: 0.9rem;
+}
+.fund-bogbox{
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 0.01rem solid #EDEDED;
+}
+.pay-a1{
+    width: 92%;
+    overflow: hidden;
+    margin: auto;
+    font-size: 0.26rem;
+    padding: 0.18rem 0;
+}
+
+.pay-a1 p{
+    float: left;
+    color: #424242;
+}
+.pay-a1  i{
+    float: right;
+    font-size: 0.4rem;
+    color: #b2aeb1;
+}
+.pay-a2{
+    padding:5% 4% ;
+    font-size: 0.23rem;
+    color: #494949;
+    background-color: #F2F2F2;
+    display: none;
+
+}

@@ -1,0 +1,94 @@
+.bigBox{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0.9rem;
+}
+.box1{
+    width: 100%;
+    height: 1.62rem;
+    background-color: #fff;
+    border-bottom: 1px solid #f1f1f1;
+    
+}
+.box2{
+    width: 92%;
+    height: 100%;
+    margin: auto;
+    /* background-color: blue; */
+}
+.box3{
+    width: 15%;
+    height: 100%;
+    background-image: url(../images/Limages/news-centerimg2.png);
+    background-size: 0.8rem 0.8rem;
+    background-repeat: no-repeat;
+    background-position: left center;
+    float: left;
+}
+.box4{
+    width: 85%;
+    height: 100%;
+    float: left;
+}
+.box3-top{
+    width: 100%;
+    height: 50%;
+}
+.box4-top-left{
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin-top: 0.4rem;
+}
+.box4-top-left span{
+    font-size: 0.32rem;
+    color: #232326;
+}
+.box4-top-right{
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: right;
+    margin-top: 0.4rem;
+}
+.box4-top-right span{
+    font-size: 0.24rem;
+    color: #646464;
+}
+.box3-bottom{
+    width: 100%;
+    height: 50%;
+}
+.box4-bottom-left{
+    width: 80%;
+    height: 100%;
+    float: left;
+    clear: both;
+}
+.box4-bottom-left span{
+    font-size: 0.24rem;
+    color: #232326;
+}
+.box4-bottom-right{
+    width: 20%;
+    height: 100%;
+    float: left;   
+}
+.box4-bottom-right span{
+   display: block;
+   width: 0.14rem;
+   height: 0.14rem;
+   border-radius: 50%;
+   background-color: red;
+   float: right;
+   margin-top: 0.1rem;
+}
+.box3-1{
+    width: 15%;
+    height: 100%;
+    background-image: url(../images/Limages/news-centerimg1.png);
+    background-size: 0.8rem 0.8rem;
+    background-repeat: no-repeat;
+    background-position: left center;
+    float: left;
+}

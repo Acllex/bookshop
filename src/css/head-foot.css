@@ -1,0 +1,126 @@
+/*首页头部*/
+.index-head{
+    position: fixed;
+    z-index: 22;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: .8rem;
+    background: #fff;
+    padding: .24rem 0;
+    border-bottom: .02rem solid #f1f1f1;
+}
+.index-head-text{
+    width: 17%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+.index-head-text img{
+    width: .4rem;
+    height: .4rem;
+    position: relative;
+}
+.index-head-text span{
+    width: 100%;
+    float: left;
+    font-size: .24rem;
+    margin-top: .06rem;
+    color: #A8A3A7;
+}
+.index-head-title{
+    width: 66%;
+    float: left;
+    height: .8rem;
+    text-align: center;
+    line-height: .8rem;
+}
+.index-head-title span:first-child{
+    display: inline-block;
+    font-size: .32rem;
+}
+.index-head-title span:last-child{
+    width: .24rem;
+    height: .24rem;
+    display: inline-block;
+    background: url('../assets/head-foot/triangle.png') no-repeat center center;
+    background-size: 100%;
+    margin-left: .1rem;
+}
+/*头部*/
+#Header .head{
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: .88rem;
+    line-height: .88rem;
+    color: #333333;
+    background: #FFFFFF;
+    text-align: center;
+    border-bottom: .02rem solid #F3F3F3;
+}
+.head-left{
+    background: url('../assets/head-foot/arrow-left.png') no-repeat .2rem center;
+    background-size: 20%;
+    width: 30%;
+    height: .88rem;
+    line-height: .88rem;
+    font-size: .28rem;
+    float: left;
+}
+.head-title{
+    width: 40%;
+    height: .88rem;
+    line-height: .88rem;
+    text-align: center;
+    font-size: .32rem;
+    color: #333333;
+    float: left;
+}
+.head-right{
+    width: 30%;
+    height: .88rem;
+    line-height: .88rem;
+    font-size: .28rem;
+    float: left;
+}
+
+/*底部*/
+.foot{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    height: 1rem;
+    background: #FFF;
+    border-top: .02rem solid #DCDCDC;
+}
+.foot>a{
+    width: 25%;
+    float: left;
+    height: 1rem;
+    text-align: center;
+    color: #232326;
+}
+.foot>a span:first-child{
+    width: .42rem;
+    height: .42rem;
+    display: inline-block;
+    margin-top: .1rem;
+}
+.foot>a span:first-child img{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.foot>a span:last-child{
+    width: 100%;
+    float: left;
+    font-size: .26rem;
+}
+.foot-color{
+    color: #FF9201;
+}
