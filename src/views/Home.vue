@@ -73,7 +73,7 @@
           <li v-for="(items, i) in item.goods" :key="i">
             <router-link :to="{ path: '/goodslist', query: { gid: items.gid }}">
               <img :src="BURL+items.gthumb" class="lazyload" alt />
-              <span>{{items.gname}}</span>
+              <span class="goods-name">{{items.gname}}</span>
               <span class="price">
                 ￥{{items.gdiscount}}
                 <s>￥{{items.gprice}}</s>
@@ -320,7 +320,9 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
-
+.goods-name {
+  color: black;
+}
 .box2 li div {
   width: 100%;
 }
